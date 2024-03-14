@@ -1,0 +1,58 @@
+/* 顏色主題 */
+
+body {
+  background-color: rgb(230, 230, 227);
+}
+
+div.base {
+  /* display: flex; */
+  width: 60%;
+  padding: 3rem;
+  border: 0px;
+  margin: auto;
+  background-color: rgb(247, 247, 245);
+}
+
+div.h1 {
+  padding-top: 0rem;
+  padding-bottom: 0.5rem;
+  margin: 0rem;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgba(59, 60, 57, 1);
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+div.h1:hover {
+  color: rgb(175, 121, 54);
+}
+
+div.h2 {
+  /* border-style: inherit; */
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(59, 60, 57, 1);
+  line-height: 24px;
+}
+
+div.p {
+  padding-top: 1.5rem;
+  padding-bottom: 0rem;
+  font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(59, 60, 57, 1);
+  line-height: 30px;
+}
